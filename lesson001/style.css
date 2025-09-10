@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     max-width: 1110px;
     width: 100%;
     margin: 0 auto;
@@ -18,38 +18,36 @@ li {
     list-style: none;
 }
 
-header{
+header {
     padding: 50px 0;
-   
 }
 
-.header__logo{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.header__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.nav__menu{
+.nav__menu {
     padding-top: 79px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
-    
 }
 
 .nav__menu-item a {
     font-weight: 400;
     line-height: 100%;
-    font-family: 'Roboto';
-    color: #8C8A8A;
+    font-family: "Roboto";
+    color: #8c8a8a;
 }
 
-.nav__menu-item a:hover{
+.nav__menu-item a:hover {
     color: #232323;
 }
 
-.section__main{
+.section__main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,95 +55,92 @@ header{
     padding-top: 30px;
 }
 
-.section__title{
+.section__title {
     width: 730px;
     height: 500px;
-    background-color: #F0F0F0;
+    background-color: #f0f0f0;
 }
 
-.section__text{
+.section__text {
     width: 350px;
     height: 500px;
-    background-color: #F0F0F0;
+    background-color: #f0f0f0;
 }
 
-.section__title h2{
+.section__title h2 {
     padding: 40px 50px;
     font-weight: 700;
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-size: 20px;
     line-height: 100%;
-    color: #4581B7;
-
+    color: #4581b7;
 }
 
-.section__title p{
-     font-family: 'Roboto';
+.section__title p {
+    font-family: "Roboto";
     padding: 0 40px;
     font-weight: 400;
     font-size: 16px;
     line-height: 27px;
-    color: #8C8A8A;
+    color: #8c8a8a;
 }
 
-.section__text h2{
+.section__text h2 {
     padding: 40px 50px;
     font-weight: 700;
     font-size: 20px;
     line-height: 100%;
-    color:#4581B7 ;
+    color: #4581b7;
 }
 
-.section__text h3{
-     font-family: 'Roboto';
+.section__text h3 {
+    font-family: "Roboto";
     font-weight: 400;
     font-size: 14px;
     line-height: 27px;
     color: #808080;
-     padding: 0 40px;
+    padding: 0 40px;
 }
 
-.section__text p{
-    font-family: 'Roboto';
+.section__text p {
+    font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
     line-height: 27px;
     color: #808080;
-     padding: 0 40px;
-     margin-top: 40px
-    
+    padding: 0 40px;
+    margin-top: 40px;
 }
 
-.footer__main{
-        width: 1110px;
+.footer__main {
+    width: 1110px;
     height: 150px;
-    background-color: #F0F0F0;
+    background-color: #f0f0f0;
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer__item img{
+.footer__item img {
     padding: 15px 40px;
 }
 
-.footer__title h4{
+.footer__title h4 {
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
     color: #808080;
-      font-family: 'Roboto';
-      padding: 0 40px;
-
+    font-family: "Roboto";
+    padding: 0 40px;
 }
 
-.footer__title p{
+.footer__title p {
     font-weight: 700;
     font-size: 25px;
     line-height: 100%;
-     font-family: 'Roboto';
-     color: #808080;
-     margin-left: 90px;
-     padding-top: 10px;
+    font-family: "Roboto";
+    color: #808080;
+    margin-left: 90px;
+    padding-top: 10px;
 }
