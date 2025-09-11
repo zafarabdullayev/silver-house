@@ -18,7 +18,7 @@ li {
     list-style: none;
 }
 
-header{
+nav{
     padding: 50px 0;
 }
 
@@ -36,14 +36,14 @@ header{
     gap: 30px;
 }
 
-.nav__menu-item a {
+.nav__menu-item .nav__menu-link {
     font-weight: 400;
     line-height: 100%;
     font-family: "Roboto";
     color: #8c8a8a;
 }
 
-.nav__menu-item a:hover {
+.nav__menu-item .nav__menu-link:hover {
     color: #232323;
 }
 
@@ -55,19 +55,20 @@ header{
     padding-top: 30px;
 }
 
-.section__title{
+.section__content{
     width: 730px;
     height: 500px;
     background-color: #f0f0f0;
 }
 
-.section__text {
+.section__info {
     width: 350px;
     height: 500px;
     background-color: #f0f0f0;
+
 }
 
-.section__title h2{
+.section__content .section__title{
     padding: 40px 50px;
     font-weight: 700;
     font-family: "Roboto";
@@ -76,7 +77,16 @@ header{
     color: #4581b7;
 }
 
-.section__title p{
+.section__content .section__subtitle{
+        font-family: 'Roboto';
+    padding: 0 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #8c8a8a;
+}
+
+.section__info .section__adres{
      font-family: 'Roboto';
     padding: 0 40px;
     font-weight: 400;
@@ -85,7 +95,7 @@ header{
     color: #8c8a8a;
 }
 
-.section__text h2 {
+.section__info .section__adres-title {
     padding: 40px 50px;
     font-weight: 700;
     font-size: 20px;
@@ -93,7 +103,7 @@ header{
     color: #4581b7;
 }
 
-.section__text h3 {
+.section__info .section__contact {
     font-family: "Roboto";
     font-weight: 400;
     font-size: 14px;
@@ -102,7 +112,7 @@ header{
     padding: 0 40px;
 }
 
-.section__text p {
+.section__info .section__gmail {
     font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
@@ -112,7 +122,7 @@ header{
     margin-top: 40px;
 }
 
-.footer__main{
+.footer .container{
         width: 1110px;
     height: 150px;
     background-color: #f0f0f0;
@@ -122,11 +132,11 @@ header{
     align-items: center;
 }
 
-.footer__item img{
+.footer__img{
     padding: 15px 40px;
 }
 
-.footer__title h4{
+.footer__content .footer__title{
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
@@ -135,7 +145,7 @@ header{
     padding: 0 40px;
 }
 
-.footer__title p{
+.footer__content .footer__subtitle{
     font-weight: 700;
     font-size: 25px;
     line-height: 100%;
